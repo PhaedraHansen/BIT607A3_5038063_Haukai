@@ -1,0 +1,526 @@
+/* BODY CONTENT STYLING */
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    margin: 0;
+    background-color: #bbb;
+}
+
+
+/* BORDER-BOX SIZING */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* SIDE NAVIGATION */
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: gainsboro;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+/*  CONTAINER FOR MAIN CONTENT*/
+
+.content-container {
+    background-color: rgb(255, 255, 255);
+    margin-left: 200px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* ADDITIONAL SIDEBAR TEXT */
+
+.maori {
+    text-align: left;
+    font-size: 0.8vw;
+    font-weight: 400;
+    padding-left: 5px;
+    font-style: italic;
+}
+
+.maori-text {
+    text-align: left;
+    font-size: 0.8vw;
+    font-weight: 400;
+    padding-left: 5px;
+    font-style: italic;
+    color: darkred;
+}
+
+
+/* FONT FOR HEADER BANNERS */
+
+.homepage-banner h1,
+.menu-banner h1,
+.reservations-banner h1,
+.about-banner h1,
+.privacy-banner h1,
+.staffroster h1 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 4vw;
+    font-weight: 900;
+    color: ghostwhite;
+    text-shadow: 2px 2px 9px #111;
+    text-align: center;
+}
+
+.homepage-banner h2,
+.menu-banner h2,
+.reservations-banner h2,
+.about-banner h2,
+.privacy-banner h2,
+.staffroster h2 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 2vw;
+    font-weight: 900;
+    color: ghostwhite;
+    text-shadow: 2px 2px 9px #111;
+    text-align: center;
+}
+
+
+/*  BANNER STYLING */
+
+.homepage-banner,
+.menu-banner,
+.reservations-banner,
+.about-banner,
+.privacy-banner,
+.staffroster {
+    padding: 150px;
+    margin-left: 200px;
+    border-radius: 8px;
+}
+
+
+/* HOMEPAGE BANNER */
+
+.homepage-banner {
+    background: rgb(142, 141, 138);
+    background: linear-gradient(90deg, rgba(142, 141, 138, 0.2091211484593838) 6%, rgba(17, 18, 17, 0.542454481792717) 51%, rgba(142, 141, 138, 0.30996148459383754) 100%), url(/Users/phaedrahansen/Desktop/BIT607A2/images/homepage.png);
+}
+
+
+/* MENU BANNER AND MENU STYLING */
+
+.menu-banner {
+    background: rgb(142, 141, 138);
+    background: linear-gradient(90deg, rgba(142, 141, 138, 0.2091211484593838) 6%, rgba(17, 18, 17, 0.542454481792717) 51%, rgba(142, 141, 138, 0.30996148459383754) 100%), url(/Users/phaedrahansen/Desktop/BIT607A2/images/mussels.png);
+}
+
+.item-price {
+    color: rgb(232, 30, 30);
+}
+
+.menu-item {
+    font-size: 1vw;
+}
+
+.headings {
+    font-size: 1.5vw font-family: 'Francois One', sans-serif;
+    font-size: 2vw;
+    font-weight: 900;
+    color: ghostwhite;
+    text-shadow: 2px 2px 9px #111;
+    text-align: center;
+}
+
+.article {
+    font-size: 1vw;
+}
+
+#identified {
+    color: rgb(163, 14, 14);
+}
+
+.my-accordion .menu {
+    background-color: #d5d5d5;
+    color: #444;
+    cursor: pointer;
+    padding: 12px;
+    width: 60%;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-top: 4px;
+    border-radius: 8px;
+    font-size: inherit
+}
+
+.my-accordion .panel {
+    background-color: #FFFFFF;
+    color: #000000;
+    overflow: hidden;
+}
+
+.my-accordion .open,
+.my-accordion .active .darrow {
+    display: block
+}
+
+.my-accordion .close,
+.my-accordion .darrow,
+.my-accordion .active .rarrow {
+    display: none
+}
+
+.my-accordion .active {
+    background-color: #1b90bb;
+    color: #fff
+}
+
+.my-accordion .arrow {
+    float: right;
+    display: block
+}
+
+.my-accordion .panel a {
+    display: block;
+    background: #808080;
+    color: #FFFFFF;
+    padding: 5px;
+    margin: 3px;
+    width: 100%;
+    text-decoration: none
+}
+
+
+/* RESERVATION BANNER IMAGE*/
+
+.reservations-banner {
+    background: rgb(142, 141, 138);
+    background: linear-gradient(90deg, rgba(142, 141, 138, 0.2091211484593838) 6%, rgba(17, 18, 17, 0.542454481792717) 51%, rgba(142, 141, 138, 0.30996148459383754) 100%), url(/Users/phaedrahansen/Desktop/BIT607A2/images/reservations.png);
+}
+
+
+/* ABOUT PAGE BANNER IMAGE*/
+
+.about-banner {
+    background: rgb(142, 141, 138);
+    background: linear-gradient(90deg, rgba(142, 141, 138, 0.2091211484593838) 6%, rgba(17, 18, 17, 0.542454481792717) 51%, rgba(142, 141, 138, 0.30996148459383754) 100%), url(/Users/phaedrahansen/Desktop/BIT607A2/images/about.png);
+}
+
+
+/* CONTACT FORM */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+â€‹ input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+â€‹ input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+â€‹ .contact-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+/* PRIVACY PAGE BANNER IMAGE & CONTENT */
+
+.privacy-banner {
+    background: rgb(142, 141, 138);
+    background: linear-gradient(90deg, rgba(142, 141, 138, 0.2091211484593838) 6%, rgba(17, 18, 17, 0.542454481792717) 51%, rgba(142, 141, 138, 0.30996148459383754) 100%), url(/Users/phaedrahansen/Desktop/BIT607A2/images/privacy.png);
+}
+
+.privacy-content {
+    padding: 20px;
+    margin-left: 600px;
+}
+
+.privacy-content h1,
+h3 {
+    text-align: center;
+    margin-left: -400px;
+    font-size: 2vw;
+}
+
+.privacy-content,
+p,
+h4 {
+    text-align: center;
+    font-size: 1.1vw;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 800px;
+    height: 600px;
+    perspective: 1000px;
+    margin-left: 10px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #bdc7ce;
+    color: rgb(17, 16, 16);
+    transform: rotateY(180deg);
+    text-align: center;
+}
+
+
+/* COUNTER CARDS */
+
+.card {
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 5px #000;
+    border: none;
+    padding-bottom: 20px;
+    transition: all ease-in-out 0.2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-left: 200px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-title {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 1vw;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+/* Float four columns side by side */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+
+/* Remove extra left and right margins, due to padding */
+
+.row {
+    margin: 0 -5px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    font-size: 1vw;
+}
+
+
+/* FONT AWESOME ICONS */
+
+.fas {
+    font-size: 1vw;
+    color: black;
+}
+
+
+/* FOOTER STYLING*/
+
+.footer {
+    position: relative;
+    width: 100%;
+    margin-left: 50px;
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    font-size: 0.5vw;
+    margin-bottom: -1px;
+}
+
+
+/* RESPONSIVE IFRAME */
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 550px) {
+    .small-container {
+        display: none;
+    }
+}
+
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* RESPONSIVE IMAGES AND VIDEOS*/
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    vertical-align: middle;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media screen and (max-width: 600px) {
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            /* Large devices (laptops/desktops, 992px and up) */
+            @media only screen and (min-width: 992px) {
+                .sidebar {
+                    width: 100%;
+                    height: auto;
+                    position: relative;
+                }
+                .sidebar a {
+                    float: left;
+                }
+                div.content {
+                    margin-left: 0;
+                }
+            }
+            /* Extra large devices (large laptops and desktops, 1200px and up) */
+            @media only screen and (min-width: 992px) {
+                @media screen and (max-width: 700px) {
+                    .sidebar {
+                        width: 100%;
+                        height: auto;
+                        position: relative;
+                    }
+                    .sidebar a {
+                        float: left;
+                    }
+                    div.content {
+                        margin-left: 0;
+                    }
+                }
+                @media screen and (max-width: 400px) {}
+            }
+        }
+    }
+}
